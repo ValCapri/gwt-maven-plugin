@@ -131,7 +131,7 @@
     <it.localWorkers>-1</it.localWorkers>
     <stagingSiteRepositoryId>codehaus</stagingSiteRepositoryId>
     <stagingSiteURL>dav:https://dav.codehaus.org/mojo/${project.artifactId}-${project.version}</stagingSiteURL>
-    <invokerPluginVersion>1.5</invokerPluginVersion>    
+    <invokerPluginVersion>1.8</invokerPluginVersion>
   </properties>
 
   <dependencies>
@@ -386,7 +386,7 @@
     <profile>
       <id>grid</id>
       <properties>
-        <invokerPluginVersion>1.6-SNAPSHOT</invokerPluginVersion>
+        <invokerPluginVersion>1.8</invokerPluginVersion>
         <itParallelThreads>1</itParallelThreads>
       </properties>
       <build>
